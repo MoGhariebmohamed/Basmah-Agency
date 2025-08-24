@@ -5,9 +5,9 @@ import { CgClose } from "react-icons/cg";
 
 // This is the main page for basmah-agency app
 type NavProp ={
-  showNav:boolean;
-  closeNav:()=>void
-}
+  showNav: boolean;
+  closeNav: () => void;
+};
 
 const PhoneNav = ({closeNav, showNav}:NavProp) => {
   const navOpen = showNav?'translate-x-0':'translate-x-[-100%]'

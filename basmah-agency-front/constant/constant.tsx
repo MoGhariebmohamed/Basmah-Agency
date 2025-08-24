@@ -2,31 +2,31 @@ export const navLinks  =[
     {
         id:1,
         url:'#',
-        label: 'Home'
+        label: 'صفحتنا الرئيسية'
     },
     {
         id:2,
         url:'#',
-        label: 'Services'
+        label: 'خدماتنا'
     },
     {
         id:4,
         url:'#',
-        label: 'Packages'
+        label: 'باقاتنا المميزة'
     },
     {
         id:6,
         url:'#',
-        label: 'Achievments'
+        label: 'إنجازاتنا'
     },
     {
         id:3,
         url:'#',
-        label: 'Reviews'
+        label: 'أكاديمية بصمة'
     },
     {
         id:5,
         url:'#',
-        label: 'Contact'
+        label: 'تواصل معنا'
     },
 ]
