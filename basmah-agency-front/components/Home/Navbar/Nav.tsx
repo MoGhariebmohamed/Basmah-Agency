@@ -28,7 +28,7 @@ const Nav = ({ openNav }: NavProp) => {
       navbg?"bg-white shadow-md" : "fixed"
     } duration-200 h-[12vh] z-[100] fixed w-full`}
   >
-    <div className="flex items-center f-full justify-between w-[90%] x1:w-[80%] mx-auto">
+    <div className="flex items-center f-full justify-between w-[90%] x1:w-[80%] mx-auto mt-2">
       {/* Navlinks */}
       <div className="hidden items-center lg:flex space-x-10">
         {navLinks.slice().reverse().map((link)=>{
