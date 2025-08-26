@@ -21,6 +21,34 @@ const Secondsec = () => {
             Web page related images
 Jan 7, 2025 · نتتبع قصة ماجد الذي يجبر على ترك حياته الرغيدة والانتقال من مدرسته الخاصة إلى أخرى مدرسة حكومية، وبمرور الأحداث استطاع كسب احترام زملائه بفضل مهاراته الاستثنائية في كرة القدم، وتم اختياره سريعًا للانضمام إلى فريق المدرسة في مسابق
            </p>
+           <button className="mt-5 text-[#f68967] font-bold pb-1 border-b-2 
+           border-[#f68967]">
+            أعرف أكتر &#8594;
+           </button>
+           <div className="mt-8 border-1-2 border-gray-200">
+            <div className="ml-6">
+              <p className="text-gray-700 font-meduim">
+                &quot; نحن نصنع فارق دائما &quot;
+              </p>
+              <div className="flex items-center space-x-6 mt-6">
+                <Image src="/images/laptopscreen.jpg"
+                 alt="نحن هنا" 
+                 width={40} 
+                 height={40} 
+                 className="rounded-full"
+                 />
+                 <div>
+                  <p className="font-meduim">
+                  شخصية بصمة
+                  </p>
+                  <p className="text-gray-700 text-sm">
+                    أسم بصمة@ basmah
+                  </p>
+                 </div>
+              </div>
+            </div>
+
+           </div>
         </div>
     </div>
   </div>

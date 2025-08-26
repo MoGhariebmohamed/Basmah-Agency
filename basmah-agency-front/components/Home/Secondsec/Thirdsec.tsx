@@ -1,0 +1,111 @@
+import React from "react"
+import Image from "next/image"
+import { MdOutlineAccessAlarm, MdOutlineTouchApp } from "react-icons/md";
+import { GoWorkflow } from "react-icons/go";
+import { LuPenLine } from "react-icons/lu";
+
+const Thirdsec = () => {
+  return <div className="pt-16 pb-16 bg-gray-100"> 
+  <div>
+    <h1 className="text-center text-2xl text-blue-950 font-bold">
+        أهم ما يميز باقاتنا
+    </h1>
+    <p className="mt-3 text-center font-medium text-red-700 w-[90%] 
+    mx-auto sm:w-[70%] md:w-[50%]">
+        ن حن المتميزون والمتيزون نحنحن المتميزون والمتيزون نحن نحن المتميزون والمتيزون نحن 
+        نحن المتميزون والمتيزون نحن </p>
+  </div>
+  {/* The Mian Grid */}
+  <div className="w-[80%] mx-auto  mt-16 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
+    {/* Inner grid */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        {/* First box */}
+        <div className="bg-white p-4 rounded-lg">
+            <div className="flex items-center space-x-3">
+                {/* icon for box */}
+                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
+                flex-col bg-pink-500 bg-opacity-20">
+                    <MdOutlineTouchApp className="w-6 h-6 text-orange-450" />
+                </div>
+                {/* Heading */}
+                <h1 className="text-lg font-bold text-gray-700">
+                    المحتوي المتكامل
+                </h1>
+            </div>
+            {/* description */}
+            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+            </p>
+        </div>
+        {/* Second box */}
+        <div className="bg-white p-4 rounded-lg">
+            <div className="flex items-center space-x-3">
+                {/* icon for box */}
+                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
+                flex-col bg-pink-500 bg-opacity-20">
+                    <GoWorkflow className="w-6 h-6 text-orange-450" />
+                </div>
+                {/* Heading */}
+                <h1 className="text-lg font-bold text-gray-700">
+                    المحتوي المتكامل
+                </h1>
+            </div>
+            {/* description */}
+            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+            </p>
+        </div>
+        {/* Third box */}
+        <div className="bg-white p-4 rounded-lg">
+            <div className="flex items-center space-x-3">
+                {/* icon for box */}
+                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
+                flex-col bg-pink-500 bg-opacity-20">
+                    <LuPenLine className="w-6 h-6 text-orange-450" />
+                </div>
+                {/* Heading */}
+                <h1 className="text-lg font-bold text-gray-700">
+                    المحتوي المتكامل
+                </h1>
+            </div>
+            {/* description */}
+            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+            </p>
+        </div>
+        {/* Fourth box */}
+        <div className="bg-white p-4 rounded-lg">
+            <div className="flex items-center space-x-3">
+                {/* icon for box */}
+                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
+                flex-col bg-pink-500 bg-opacity-20">
+                    <MdOutlineAccessAlarm className="w-6 h-6 text-orange-450" />
+                </div>
+                {/* Heading */}
+                <h1 className="text-lg font-bold text-gray-700">
+                    المحتوي المتكامل
+                </h1>
+            </div>
+            {/* description */}
+            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+                وصفنا ومحدش زينا 
+            </p>
+        </div>
+    </div>
+    {/* Image section */}
+    <div>
+        <Image src="/images/gearsoftware.jpg" alt="خدماتنا" width={700} height={700} />
+    </div>
+  </div>
+   </div>
+};
+
+export default Thirdsec;
