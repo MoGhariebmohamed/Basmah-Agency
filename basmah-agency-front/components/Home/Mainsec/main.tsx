@@ -15,13 +15,12 @@ const Mainsec = () => {
                     </p>
                     <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-red-500
                     leading-[2.5rem] md:leading-[3.5rem]">
-                       kkdg k,v ;lf,v ;ls,fvv lll jjkkjkj 
-                        <span className="text-green-800"> Basmah Agency </span>
+                       وتم اختياره سريعًا للانضمام 
+                        <span className="text-green-800"> بصمة أيجانسي </span>
                     </h1>
                     <p className="text-xs sm:text-sm md:text-base font-meduim text-blue-800">
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere libero culpa perferendis pariatur magni ullam numquam in. Aperiam, pariatur aut. Quasi,
-                         architecto quas laudantium quo sint neque laborum dolores enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro error nisi, ullam atque non vero suscipit similique rerum consequuntur recusandae animi temporibus, 
-                         beatae ab? Eveniet consectetur amet nobis esse iste.
+                        Web page related images
+Jan 7, 2025 · نتتبع قصة ماجد الذي يجبر على ترك حياته الرغيدة والانتقال من مدرسته الخاصة إلى أخرى مدرسة حكومية، وبمرور الأحداث استطاع كسب احترام زملائه بفضل مهاراته الاستثنائية في كرة القدم، وتم اختياره سريعًا للانضمام إلى فريق المدرسة في مسابق
                     </p>
                 <div className="mt-8 flex flex-col sm:flex-row w-fit sm:items-center
                 space-y-4 sm:space-y-0 sm:space-x-4">
