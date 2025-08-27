@@ -1,7 +1,7 @@
 import React from "react";
 import Mainsec from "./Mainsec/main";
 import Secondsec from "./Secondsec/Secondsec";
-import Thirdsec from "./Secondsec/Thirdsec";
+import Thirdsec from "./Thirdsec/Thirdsec";
 import Fourthsec from "./Fourthsec/Fourthsec";
 
 
