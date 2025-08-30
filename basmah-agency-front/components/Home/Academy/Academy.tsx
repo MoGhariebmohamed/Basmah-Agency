@@ -1,0 +1,72 @@
+import React from "react";
+import Boxtext from "../../Helper/Boxtext";
+import Image from "next/image";
+
+
+const Academy = () => {
+  return <div className="pt-16 pb-16">
+    <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
+        {/* Text */}
+        <div className="lg:col-span-2">
+        <Boxtext>أكاديمية بصمة</Boxtext>
+        {/* Heading */}
+        <h1 className="mt-4 text-xl md:text-2xl font-bold text-gray-800">
+            أحترف معنا للإبداع والإبتكار ومواكبة رؤيتنا 
+        </h1>
+        {/* Description */}
+        <p className="mt text-gray-800"> معنا للإبداع والإبتكار معنا للإبداع والإبتكار
+             معنا للإبداع والإبتكار معنا للإبداع والإبتكار معنا للإبداع والإبتكار
+        </p>
+        
+        {/* Button */}
+        <div>
+            <a href="#" title=""
+            className="relative mt-6 z-10 inline-flex items-center justify-center 
+            w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
+            bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
+            hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            role="button">
+                يلا بينا  
+            </a>
+        </div>
+        </div>
+
+
+        {/* Images */}
+        <div className="sm:flex items-center gap-5 space-y-4 sm:space-y-0 
+        lg:col-span-3">
+            <div className="relative overflow-hidden">
+            <Image 
+            src="/images/laptop and tab.jpg"
+            alt="اكاديمتنا"
+            width={300}
+            height={300}
+            className="rounded-lg"
+            />
+            <div className="absolute w-full h-[5rem] bottom-0 p-4 
+            bg-rose-400 rounded-lg">
+                <p className="text-lg text-white font-bold">خدوني معاكم</p>
+                <p className="text-gray-200">(مؤسس)</p>
+            </div>
+            </div>
+            
+            <div className="relative overflow-hidden">
+            <Image 
+            src="/images/laptop and tab.jpg"
+            alt="اكاديمتنا"
+            width={300}
+            height={300}
+            className="rounded-lg"
+            />
+            <div className="absolute w-full h-[5rem] bottom-0 p-4 
+            bg-rose-400 rounded-lg">
+                <p className="text-lg text-white font-bold">خدوني معاكم</p>
+                <p className="text-gray-200">(مؤسس)</p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>;
+};
+
+export default Academy;
