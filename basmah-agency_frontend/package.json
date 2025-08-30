@@ -1,5 +1,5 @@
 {
-  "name": "basmah-agency-front",
+  "name": "basmah-agency_front",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -22,7 +22,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "15.4.6",
+    "eslint-config-next": "^15.4.6",
     "tailwindcss": "^4.1.12",
     "typescript": "^5"
   }
