@@ -11,16 +11,16 @@ const Mainsec = () => {
                 {/* text content */}
                 <div>
                     <p className="text-sm sm:text-base md:text-xl font-bold text-blue-950">
-                        يلا نعمل أعلانات
+                               !!!!!يلا نعمل أعلانات
                     </p>
                     <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-red-500
                     leading-[2.5rem] md:leading-[3.5rem]">
-                       وتم اختياره سريعًا للانضمام 
-                        <span className="text-green-800"> بصمة أيجانسي </span>
+                        بصمة للتسويق الرقمي
+                        <span className="text-green-800 block"> نترك أثرًا… يتجاوز التوقعات </span>
                     </h1>
                     <p className="text-xs sm:text-sm md:text-base font-meduim text-blue-800">
-                        Web page related images
-Jan 7, 2025 · نتتبع قصة ماجد الذي يجبر على ترك حياته الرغيدة والانتقال من مدرسته الخاصة إلى أخرى مدرسة حكومية، وبمرور الأحداث استطاع كسب احترام زملائه بفضل مهاراته الاستثنائية في كرة القدم، وتم اختياره سريعًا للانضمام إلى فريق المدرسة في مسابق
+                        نؤمن أن لكل مشروع بصمته الخاصة، ولكل فكرة طابعها الفريد. ومن هنا، نصيغ لك حلولًا تسويقية وهوية بصرية تُجسّد روح مشروعك، وتُترجم رسالته إلى تجربة حيّة تبقى في الذاكرة.
+
                     </p>
                 <div className="mt-8 flex flex-col sm:flex-row w-fit sm:items-center
                 space-y-4 sm:space-y-0 sm:space-x-4">

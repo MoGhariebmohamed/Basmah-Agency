@@ -1,6 +1,6 @@
 import React from "react"
 import Boxtext from "../../Helper/Boxtext";
-import { FaBriefcase, FaChess, FaRocket, FaShoppingCart } from "react-icons/fa";
+import { FaBriefcase, FaChess, FaHospitalAlt, FaHospitalSymbol, FaRocket, FaShoppingCart } from "react-icons/fa";
 import { MdOutlineDesignServices } from "react-icons/md";
 import { IoColorPaletteOutline } from "react-icons/io5";
 
@@ -12,12 +12,11 @@ const Fourthsec = () => {
   <Boxtext>خدماتنا</Boxtext>
   {/* Heading */}
   <h1 className="mt-4 text-2xl md:text-3xl font-bold text-gray-800">
-نقدم أفضل خدماتنا لديك
+    أثر يدوم… ونجاح يتجدد
   </h1>
   {/* Description */}
-  <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:e-[60%] xl:w-[50%] text-gray-600">
-     حن المتميزون والمتيزون نحنحن المتميزون والمتيزون نحن نحن المتميزون والمتيزون نحن 
-        نحن المتميزون والمتيزون نحن 
+  <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:e-[60%] xl:w-[50%] text-gray-600 ">
+    لا نقدّم مجرد خدمات تسويق… بل نصنع أثرًا يبقى، ونفتح آفاقًا جديدة لنجاح يتجدد مع كل خطوة في رحلتكم      
   </p>
   {/* Grid */}
   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center 
@@ -31,8 +30,8 @@ const Fourthsec = () => {
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجة كحقيبة أعمال</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">إدارة الحملات الإعلانية على جميع المنصات الرقمية</p>
+        <p className="text-sm text-gray-700">فيسبوك، إنستجرام، لينكدإن، جوجل</p>
       </div>
     </div>
      {/* 2nd Box */}
@@ -44,8 +43,8 @@ const Fourthsec = () => {
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجة زي الصاروخ</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">تحسين محركات البحث (SEO) لضمان تصدر البحث</p>
+        
       </div>
     </div>
      {/* 3rd Box */}
@@ -57,8 +56,8 @@ const Fourthsec = () => {
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجة ك تجارة إلكترونية</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">إنشاء وإدارة المواقع والمتاجر الإلكترونية</p>
+        
       </div>
     </div>
      {/* 4th Box */}
@@ -70,8 +69,8 @@ const Fourthsec = () => {
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجةك تصميمات</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">كتابة المحتوى الرقمي</p>
+        <p className="text-sm text-gray-700">تجاري، طبي، تعليمي، ترفيهي</p>
       </div>
     </div>
      {/* 5th Box */}
@@ -83,8 +82,8 @@ const Fourthsec = () => {
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجة ك نقاشين بدون حدود</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">تصميم الهوية البصرية والعلامة التجارية بأسلوب احترافي</p>
+        
       </div>
     </div>
      {/* 6th Box */}
@@ -92,12 +91,12 @@ const Fourthsec = () => {
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
       bg-pink-600 bg-opacity-20">
-        <FaChess className="w-6 h-6 text-orange-300" />
+        <FaHospitalSymbol className="w-6 h-6 text-orange-300" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">نعمل كل حاجة ك خطط إستراتيجية</p>
-        <p className="text-sm text-gray-700">مكلنيب نمببن نبرب مبرن منبية</p>
+        <p className="text-lg font-bold text-gray-800">التسويق الطبي المتخصص للمستشفيات والمراكز الطبية</p>
+        
       </div>
     </div>
   </div>

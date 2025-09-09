@@ -29,14 +29,12 @@ const Thirdsec = () => {
                 </div>
                 {/* Heading */}
                 <h1 className="text-lg font-bold text-gray-700">
-                    المحتوي المتكامل
+                 باقات مصممة بمرونة     
                 </h1>
             </div>
             {/* description */}
             <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
+                تراعي حجم مشروعك ومرحلته، وتنمو وتتطور معك في كل خطوة
             </p>
         </div>
         {/* Second box */}
@@ -49,14 +47,12 @@ const Thirdsec = () => {
                 </div>
                 {/* Heading */}
                 <h1 className="text-lg font-bold text-gray-700">
-                    المحتوي المتكامل
+                    تحليل دقيق
                 </h1>
             </div>
             {/* description */}
             <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
+                قراراتنا مبنية على بيانات دقيقة و دراسة، لا على تخمينات
             </p>
         </div>
         {/* Third box */}
@@ -69,14 +65,12 @@ const Thirdsec = () => {
                 </div>
                 {/* Heading */}
                 <h1 className="text-lg font-bold text-gray-700">
-                    المحتوي المتكامل
+                    إبداعية
                 </h1>
             </div>
             {/* description */}
             <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
+                محتوى وتصميم يترك بصمة مميزة في ذهن جمهورك
             </p>
         </div>
         {/* Fourth box */}
@@ -89,14 +83,12 @@ const Thirdsec = () => {
                 </div>
                 {/* Heading */}
                 <h1 className="text-lg font-bold text-gray-700">
-                    المحتوي المتكامل
+                    متكاملة
                 </h1>
             </div>
             {/* description */}
             <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
-                وصفنا ومحدش زينا 
+                كل ما تحتاجه لبناء حضور رقمي قوي؛ من الهوية البصرية حتى الحملات الإعلانية
             </p>
         </div>
     </div>

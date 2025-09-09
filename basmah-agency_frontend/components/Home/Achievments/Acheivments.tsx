@@ -5,12 +5,17 @@ import Achievmentslog from "./Achievmentslog";
 const Achievments = () => {
   return <div className="pt-16 pb-16">
     <h1 className="text-center text-2xl text-blue-900 font-bold">
-        إنجازاااااااتنا تتحدث عنا</h1>
+        إنجازاتنا تتحدث عنا</h1>
     {/* sub heading */}
     <p className="mt-3 text-center font-meduim text-gray-700 
     w-[90%] mx-auto sm:w-[70%] md:w-[50%]">
-        كل حاجة عندنا عملناها ومحدش زينا ط\بم ملرمية ةر 
-        بلر للاي  وروبر ةري م بةركل حاجة عندنا عملناها ومحدش زيناكل حاجة عندنا عملناها ومحدش زينا
+مضاعفة نسب التفاعل الرقمي لعملائنا بما يفوق 300%.
+
+
+إدارة حملات إعلانية حققت عوائد استثنائية في وقت قياسي.
+
+
+شراكات مع علامات تجارية قادت إلى أسواق جديدة وفرص غير مسبوقة.
     </p>
     {/* grid */}
     <div className="grid grid-cols-1 grid-cols-2 gap-4 items-center 

@@ -32,7 +32,7 @@ const Achievmentslog = ({ image, name, rating }: Property) => {
         <BsStarHalf className="w-4 h-4 text-green-700" />
         </div>
     </div>
-    <p className="mt-2 text-base text-gray-600 font-meduim">إنجازااااااات ولا اروع من كدولا اروعولا اروعولا اروعولا اروعولا اروعولا اروعولا اروعولا اروعولا اروعولا اروع إنجازااااااات ولا اروع من كدا</p>
+    <p className="mt-2 text-base text-gray-600 font-meduim">  hghhj jhgjhg </p>
 </div>
     </div>;
 };
