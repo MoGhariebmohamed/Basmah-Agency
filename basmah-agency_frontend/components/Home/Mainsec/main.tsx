@@ -5,7 +5,7 @@ const Mainsec = () => {
     return (
         <div className="relative w-full h-[110vh] sm:h-screen 
         bg-[url('/images/cellhexa.jpg')] bg-cover flex
-         justify-center flex-col bg-center">
+         justify-center flex-col bg-center">1080*920
             <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 
             xl:grid-cols-2 gap-10">
                 {/* text content */}
@@ -49,7 +49,7 @@ Jan 7, 2025 · نتتبع قصة ماجد الذي يجبر على ترك حيا
                     alt="image"
                     width={900} 
                     height={900}
-                    />
+                    />900*900
                 </div>
             </div>
          </div>

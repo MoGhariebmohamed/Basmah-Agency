@@ -8,7 +8,7 @@ const Secondsec = () => {
     <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image Area */}
         <div>
-            <Image src="/images/mapping dots.jpg" alt="تعرف علينا" width={600} height={600}/>
+            <Image src="/images/mapping dots.jpg" alt="تعرف علينا" width={600} height={600}/>600*600
         </div>
         {/* Text Area */}
         <div>

@@ -102,7 +102,7 @@ const Thirdsec = () => {
     </div>
     {/* Image section */}
     <div>
-        <Image src="/images/gearsoftware.jpg" alt="خدماتنا" width={700} height={700} />
+        <Image src="/images/gearsoftware.jpg" alt="خدماتنا" width={700} height={700} />700*700
     </div>
   </div>
    </div>

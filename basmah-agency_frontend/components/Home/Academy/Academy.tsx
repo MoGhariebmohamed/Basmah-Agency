@@ -45,7 +45,7 @@ const Academy = () => {
             />
             <div className="absolute w-full h-[5rem] bottom-0 p-4 
             bg-rose-400 rounded-lg">
-                <p className="text-lg text-white font-bold">خدوني معاكم</p>
+                <p className="text-lg text-white font-bold">300*300</p>
                 <p className="text-gray-200">(مؤسس)</p>
             </div>
             </div>
@@ -60,7 +60,7 @@ const Academy = () => {
             />
             <div className="absolute w-full h-[5rem] bottom-0 p-4 
             bg-rose-400 rounded-lg">
-                <p className="text-lg text-white font-bold">خدوني معاكم</p>
+                <p className="text-lg text-white font-bold">300*300</p>
                 <p className="text-gray-200">(مؤسس)</p>
             </div>
             </div>
