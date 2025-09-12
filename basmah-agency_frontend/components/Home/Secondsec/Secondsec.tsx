@@ -4,7 +4,7 @@ import Boxtext from "../../Helper/Boxtext"
 
 const Secondsec = () => {
   return (
-  <div className="pt-16 pb-16">
+  <div className="pt-20 pb-16">
     <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image Area */}
         <div>

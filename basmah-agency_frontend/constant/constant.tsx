@@ -1,32 +1,32 @@
 export const navLinks  =[
     {
         id:1,
-        url:'/',
+        url:'#main',
         label: 'الصفحة الرئيسية'
     },
     {
         id:2,
-        url:'#',
+        url:'#second',
         label: 'من نحن؟'
     },
     {
         id:3,
-        url:'#',
+        url:'#third',
         label: 'أهم ما يميز باقاتنا'
     },
     {
         id:4,
-        url:'#',
+        url:'#fourth',
         label: 'خدماتنا'
     },
     {
         id:5,
-        url:'#',
+        url:'#achievments',
         label: 'إنجازاتنا'
     },
     {
         id:6,
-        url:'#',
+        url:'#academy',
         label: 'أكاديمية بصمة'
     },
     {

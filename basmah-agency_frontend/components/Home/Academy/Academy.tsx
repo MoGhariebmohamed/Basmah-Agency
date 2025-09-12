@@ -4,7 +4,7 @@ import Image from "next/image";
 
 
 const Academy = () => {
-  return <div className="pt-16 pb-16">
+  return <div className="pt-20 pb-16">
     <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-5 gap-10 items-center">
         {/* Text */}
         <div className="lg:col-span-2">

@@ -12,12 +12,29 @@ import Footer from "./Footer/Footer";
 
 const Home = () => {
   return <div className="overflow-hidden ">
-    <Mainsec />
-    <Secondsec />
-    <Thirdsec />
-    <Fourthsec />
-    <Achievments />
-    <Academy />
+    <section id="main">
+      <Mainsec />
+    </section>
+
+    <section id="second">
+      <Secondsec />
+    </section>
+
+    <section id="third">
+      <Thirdsec />
+    </section>
+
+    <section id="fourth">
+      <Fourthsec />
+    </section>
+
+    <section id="achievments">
+      <Achievments />
+    </section>
+
+    <section id="academy">
+      <Academy />
+    </section>
   
   </div>;
 };

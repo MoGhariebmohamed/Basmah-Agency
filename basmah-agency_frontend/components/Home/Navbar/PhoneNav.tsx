@@ -20,11 +20,13 @@ const PhoneNav = ({closeNav, showNav}:NavProp) => {
     {/* Navlinks */}
     <div className={`text-white ${navOpen} fixed justify-center flex flex-col h-full transform transition-all
     duration-500 delay-300 w-[80%] sm:w-[60%] bg-blue-800 space-y-6 z-[1050]`}>
-      {navLinks.map((link)=>{
+      {navLinks.map((link)=> {
         return (
-        <Link key={link.id} href={link.url}>
+        <Link key={link.id} href={link.url} onClick={closeNav}>
           <p className="text-white w-fit text-[20px] ml-12 border-b-[1.5px] pb-1 border-white
-          sm-text-[30px]">{link.label}</p>
+          sm-text-[30px]">
+            {link.label}
+            </p>
         </Link>
         );
       })}

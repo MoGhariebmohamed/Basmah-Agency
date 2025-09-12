@@ -12,6 +12,8 @@ type NavProp = {
 };
 const Nav = ({ openNav }: NavProp) => {
   const [navbg, setNavbg] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
+  
 
     useEffect(() => {
         const handler = () => {
@@ -20,23 +22,56 @@ const Nav = ({ openNav }: NavProp) => {
         };
         window.addEventListener("scroll", handler);
 
-        return() => window.removeEventListener("scroll", handler)
+        {/* activate active section */}
+        const sections = document.querySelectorAll("section[id]");
+        const observer = new IntersectionObserver(
+          (entries) => {
+            entries.forEach((entry) => {
+              if (entry.isIntersecting){
+                setActiveSection(entry.target.id);
+              }
+            });
+          },
+          { threshold: 0.5 }
+        );
+        sections.forEach((sec) => observer.observe(sec));
+
+        return() => {
+          window.removeEventListener("scroll", handler);
+          sections.forEach((sec) => observer.unobserve(sec));
+        };
     },[]);
 
   return (
-  <div className={`transition-all ${
-      navbg?"bg-white shadow-md" : "fixed"
-    } duration-200 h-[12vh] z-[100] fixed w-full`}
+  <div className={`transition-all 
+    ${navbg? "bg-[#006f82] shadow-md" : "bg-transparent"
+    } duration-300 h-[11vh] z-[100] fixed w-full`}
   >
-    <div className="flex items-center f-full justify-between w-[90%] x1:w-[80%] mx-auto mt-2">
+    <div className="flex items-center justify-between
+     w-[90%] xl:w-[80%] mx-auto mt-2">
       {/* Navlinks */}
       <div className="hidden items-center lg:flex space-x-10">
-        {navLinks.slice().reverse().map((link)=>{
+        {navLinks.slice().reverse().map((link) => {
+          const sectionName = link.url.replace("#", "");
           return (
             <Link 
             href={link.url} 
             key={link.id} 
-            className="text-black hover:text-rose-500 font-semibold transition-all duration-200" >
+            scroll={false}
+            onClick={(e) => {
+              e.preventDefault();
+              const target = document.getElementById(sectionName);
+              if (target) {
+                target.scrollIntoView ({ behavior: "smooth" });
+                window.history.pushState(null, "", `#${sectionName}`);
+              }
+            }}
+            className={`font-semibold transition-all duration-200 
+          ${activeSection === sectionName
+           ? "text-rose-500"
+           : "text-black hover:text-rose-500"
+          }`}
+          >
             <p>{link.label}</p>
             </Link>
           );

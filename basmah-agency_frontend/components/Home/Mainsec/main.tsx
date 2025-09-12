@@ -10,10 +10,9 @@ const Mainsec = () => {
             xl:grid-cols-2 gap-10">
                 {/* text content */}
                 <div>
-                    <p className="text-sm sm:text-base md:text-xl font-bold text-blue-950">
-                               !!!!!يلا نعمل أعلانات
-                    </p>
-                    <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-red-500
+                    <p className="text-sm sm:text-base md:text-xl font-bold text-primary-200">
+                                   fsgsgf               </p>
+                    <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-primary-800
                     leading-[2.5rem] md:leading-[3.5rem]">
                         بصمة للتسويق الرقمي
                         <span className="text-green-800 block"> نترك أثرًا… يتجاوز التوقعات </span>

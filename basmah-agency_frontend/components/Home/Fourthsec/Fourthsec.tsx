@@ -7,7 +7,7 @@ import { IoColorPaletteOutline } from "react-icons/io5";
 
 const Fourthsec = () => {
   return (
-  <div className="pt-16 pb-16 bg-gray-100"> 
+  <div className="pt-20 pb-16 bg-gray-100"> 
   <div className="w-[80%] mx-auto">
   <Boxtext>خدماتنا</Boxtext>
   {/* Heading */}
