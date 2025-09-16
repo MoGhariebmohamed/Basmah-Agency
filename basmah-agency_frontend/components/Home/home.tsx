@@ -5,7 +5,7 @@ import Thirdsec from "./Thirdsec/Thirdsec";
 import Fourthsec from "./Fourthsec/Fourthsec";
 import Achievments from "./Achievments/Acheivments";
 import Academy from "./Academy/Academy";
-import Footer from "./Footer/Footer";
+import Contact from "./Contact/Contact";
 
 
 // This is the main page for basmah-agency app
@@ -35,7 +35,10 @@ const Home = () => {
     <section id="academy">
       <Academy />
     </section>
-  
+
+    <section id="contact">
+      <Contact />
+    </section>
   </div>;
 };
 

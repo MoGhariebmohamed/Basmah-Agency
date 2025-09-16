@@ -1,5 +1,5 @@
 import React from 'react'
-import { BsInstagram, BsSnapchat, BsTiktok, BsTwitter, BsTwitterX } from 'react-icons/bs'
+import { BsInstagram, BsSnapchat, BsTiktok, BsTwitterX } from 'react-icons/bs'
 import { FaFacebook } from 'react-icons/fa6'
 
 

@@ -44,7 +44,7 @@ const Nav = ({ openNav }: NavProp) => {
 
   return (
   <div className={`transition-all 
-    ${navbg? "bg-[#006f82] shadow-md" : "bg-transparent"
+    ${navbg? "bg-[#0097b2] shadow-md" : "bg-transparent"
     } duration-300 h-[11vh] z-[100] fixed w-full`}
   >
     <div className="flex items-center justify-between
@@ -68,8 +68,8 @@ const Nav = ({ openNav }: NavProp) => {
             }}
             className={`font-semibold transition-all duration-200 
           ${activeSection === sectionName
-           ? "text-rose-500"
-           : "text-black hover:text-rose-500"
+           ? "text-[#ea580c]"
+           : "text-blue-950 hover:text-[#fed7aa]"
           }`}
           >
             <p>{link.label}</p>
@@ -79,7 +79,7 @@ const Nav = ({ openNav }: NavProp) => {
       </div>
       {/* LOGO */}
       <div className="flex items-center space-x-2 ">
-        <h1 className="text-x1 hidden sm:block md:text-2xl text-blue-800">بصمة</h1>
+        <h1 className="text-x1 hidden sm:block md:text-2xl text-blue-950">بصمة</h1>
         <div className="w-10 h-10 bg-red-700 rounded-full flex items-center justify-center flex-col">
           <IoFingerPrintOutline className="w-6 h-6 text-white" />
         </div>

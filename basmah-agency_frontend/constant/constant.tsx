@@ -31,7 +31,7 @@ export const navLinks  =[
     },
     {
         id:7,
-        url:'#',
+        url:'#contact',
         label: 'تواصل معنا'
     },
 ]

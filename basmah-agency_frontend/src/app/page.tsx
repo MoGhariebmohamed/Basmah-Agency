@@ -1,6 +1,7 @@
 import Home from "../../components/Home/home";
 import React from "react";
 
+
 // This is the main page for basmah-agency app
 
 const HomePage = () => {
