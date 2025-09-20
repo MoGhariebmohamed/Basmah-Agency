@@ -34,6 +34,12 @@ export default function Contact() {
       setStatus("خطا بالإتصال بالشبكة ❌");
     }
   };
+const whatsappNumber = "201016825550";
+const whatsappMessage = encodeURIComponent(
+  `مرحباً، أنا ${form.name}\nبريدي: ${form.email}\n\nرسالتي:\n${form.message}`
+);
+const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+                  
 
   return (
     <div dir="rtl" className="max-w-lg mx-auto px-4 sm:px-6 py-16">
@@ -72,6 +78,18 @@ export default function Contact() {
         >
           إرسال
         </button>
+        {/*whatsapp button */}
+        <div>
+        <a
+          href={whatsappLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600 text-center"
+          >
+            واتس أب
+          </a>
+          </div>
+        
       </form>
       {status && <p className="mt-4 text-center">{status}</p>}
     </div>
