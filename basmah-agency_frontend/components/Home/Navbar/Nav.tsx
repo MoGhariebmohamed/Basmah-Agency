@@ -43,7 +43,7 @@ const Nav = ({ openNav }: NavProp) => {
     },[]);
 
   return (
-  <div className={`transition-all 
+  <div dir="rtl" className={`text-right transition-all 
     ${navbg? "bg-[#0097b2] shadow-md" : "bg-transparent"
     } duration-300 h-[11vh] z-[100] fixed w-full`}
   >
@@ -51,7 +51,7 @@ const Nav = ({ openNav }: NavProp) => {
      w-[90%] xl:w-[80%] mx-auto mt-2">
       {/* Navlinks */}
       <div className="hidden items-center lg:flex space-x-10">
-        {navLinks.slice().reverse().map((link) => {
+        {navLinks.slice().map((link) => {
           const sectionName = link.url.replace("#", "");
           return (
             <Link 

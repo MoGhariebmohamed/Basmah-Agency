@@ -3,7 +3,7 @@ import Achievmentslog from "./Achievmentslog";
 
 
 const Achievments = () => {
-  return <div className="pt-20 pb-16">
+  return <div dir="rtl" className="text-right bg-blue-300 pt-20 pb-16">
     <h1 className="text-center text-2xl text-blue-900 font-bold">
         إنجازاتنا تتحدث عنا</h1>
     {/* sub heading */}

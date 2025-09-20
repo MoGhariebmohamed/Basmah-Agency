@@ -3,9 +3,9 @@ import Image from "next/image"
 
 const Mainsec = () => {
     return (
-        <div className="relative w-full h-[110vh] sm:h-screen 
+        <div dir="rtl" className="relative w-full h-[110vh] sm:h-screen 
         bg-[url('/images/cellhexa.jpg')] bg-cover flex
-         justify-center flex-col bg-center">1080*920
+         justify-center flex-col bg-center text-right">1080*920
             <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 
             xl:grid-cols-2 gap-10">
                 {/* text content */}

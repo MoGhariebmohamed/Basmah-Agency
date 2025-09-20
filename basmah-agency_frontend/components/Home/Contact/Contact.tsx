@@ -13,7 +13,7 @@ export default function Contact() {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setStatus("Sending...");
+    setStatus(" ...  جاري الإرسال");
 
     try {
       const res = await fetch("/api/contact", {
@@ -24,25 +24,25 @@ export default function Contact() {
 
       const data = await res.json();
       if (res.ok) {
-        setStatus("Message sent successfully ✅");
+        setStatus("تم الإرسال بنجاح  ✅");
         setForm({ name: "", email: "", message: "" });
       } else {
-        setStatus(data.message || "Error sending message ❌");
+        setStatus(data.message || "خطا بالإرسال ❌");
       }
     } catch (err) {
       console.error(err);
-      setStatus("Network error ❌");
+      setStatus("خطا بالإتصال بالشبكة ❌");
     }
   };
 
   return (
-    <div className="max-w-lg mx-auto py-16">
-      <h1 className="text-3xl font-bold mb-6 text-center">Contact Us</h1>
+    <div dir="rtl" className="max-w-lg mx-auto px-4 sm:px-6 py-16">
+      <h1 className="text-3xl font-bold mb-6 text-center">تواصل معنا </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
           name="name"
-          placeholder="Your Name"
+          placeholder="الإسم للتواصل"
           value={form.name}
           onChange={handleChange}
           className="w-full border p-2 rounded"
@@ -51,7 +51,7 @@ export default function Contact() {
         <input
           type="email"
           name="email"
-          placeholder="Your Email"
+          placeholder="الإيميل"
           value={form.email}
           onChange={handleChange}
           className="w-full border p-2 rounded"
@@ -59,7 +59,7 @@ export default function Contact() {
         />
         <textarea
           name="message"
-          placeholder="Your Message"
+          placeholder="إترك رسالتك التفصيلية"
           value={form.message}
           onChange={handleChange}
           className="w-full border p-2 rounded"
@@ -68,7 +68,7 @@ export default function Contact() {
         />
         <button
           type="submit"
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          className="bg-[#0097b2] text-white px-4 py-2 rounded hover:bg-blue-950"
         >
           إرسال
         </button>

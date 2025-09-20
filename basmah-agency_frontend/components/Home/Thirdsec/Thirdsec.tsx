@@ -5,7 +5,7 @@ import { GoWorkflow } from "react-icons/go";
 import { LuPenLine } from "react-icons/lu";
 
 const Thirdsec = () => {
-  return <div className="pt-20 pb-16 bg-gray-100"> 
+  return <div dir="rtl" className="text-right pt-20 pb-16 bg-blue-100"> 
   <div>
     <h1 className="text-center text-2xl text-blue-950 font-bold">
         أهم ما يميز باقاتنا

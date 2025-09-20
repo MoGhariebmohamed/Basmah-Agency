@@ -2,20 +2,20 @@ import React from "react"
 import Boxtext from "../../Helper/Boxtext";
 import { FaBriefcase, FaChess, FaHospitalAlt, FaHospitalSymbol, FaRocket, FaShoppingCart } from "react-icons/fa";
 import { MdOutlineDesignServices } from "react-icons/md";
-import { IoColorPaletteOutline } from "react-icons/io5";
+import { IoColorPalette, IoColorPaletteOutline } from "react-icons/io5";
 
 
 const Fourthsec = () => {
   return (
-  <div className="pt-20 pb-16 bg-gray-100"> 
+  <div dir="rtl" className="text-right pt-20 pb-16 bg-blue-200"> 
   <div className="w-[80%] mx-auto">
   <Boxtext>خدماتنا</Boxtext>
   {/* Heading */}
-  <h1 className="mt-4 text-2xl md:text-3xl font-bold text-gray-800">
+  <h1 className="mt-4 text-2xl md:text-3xl font-bold text-blue-950">
     أثر يدوم… ونجاح يتجدد
   </h1>
   {/* Description */}
-  <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:e-[60%] xl:w-[50%] text-gray-600 ">
+  <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:e-[60%] xl:w-[50%] text-blue-950">
     لا نقدّم مجرد خدمات تسويق… بل نصنع أثرًا يبقى، ونفتح آفاقًا جديدة لنجاح يتجدد مع كل خطوة في رحلتكم      
   </p>
   {/* Grid */}
@@ -25,25 +25,25 @@ const Fourthsec = () => {
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <FaBriefcase className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <FaBriefcase className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">إدارة الحملات الإعلانية على جميع المنصات الرقمية</p>
-        <p className="text-sm text-gray-700">فيسبوك، إنستجرام، لينكدإن، جوجل</p>
+        <p className="text-lg font-bold text-blue-950">إدارة الحملات الإعلانية على جميع المنصات الرقمية</p>
+        <p className="text-sm text-blue-900">فيسبوك، إنستجرام، لينكدإن، جوجل</p>
       </div>
     </div>
      {/* 2nd Box */}
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <FaRocket className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <FaRocket className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">تحسين محركات البحث (SEO) لضمان تصدر البحث</p>
+        <p className="text-lg font-bold text-blue-950">تحسين محركات البحث (SEO) لضمان تصدر البحث</p>
         
       </div>
     </div>
@@ -51,12 +51,12 @@ const Fourthsec = () => {
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <FaShoppingCart className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <FaShoppingCart className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">إنشاء وإدارة المواقع والمتاجر الإلكترونية</p>
+        <p className="text-lg font-bold text-blue-950">إنشاء وإدارة المواقع والمتاجر الإلكترونية</p>
         
       </div>
     </div>
@@ -64,25 +64,25 @@ const Fourthsec = () => {
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <MdOutlineDesignServices className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <MdOutlineDesignServices className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">كتابة المحتوى الرقمي</p>
-        <p className="text-sm text-gray-700">تجاري، طبي، تعليمي، ترفيهي</p>
+        <p className="text-lg font-bold text-blue-950">كتابة المحتوى الرقمي</p>
+        <p className="text-sm text-blue-900">تجاري، طبي، تعليمي، ترفيهي</p>
       </div>
     </div>
      {/* 5th Box */}
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <IoColorPaletteOutline className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <IoColorPalette className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">تصميم الهوية البصرية والعلامة التجارية بأسلوب احترافي</p>
+        <p className="text-lg font-bold text-blue-950">تصميم الهوية البصرية والعلامة التجارية بأسلوب احترافي</p>
         
       </div>
     </div>
@@ -90,12 +90,12 @@ const Fourthsec = () => {
     <div className="flex items-center space-x-5">
       {/* Icon */}
       <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col 
-      bg-pink-600 bg-opacity-20">
-        <FaHospitalSymbol className="w-6 h-6 text-orange-300" />
+      bg-[#fed7aa] bg-opacity-20">
+        <FaHospitalSymbol className="w-6 h-6 text-[#0097b2]" />
       </div>
       {/* Text Content */}
       <div>
-        <p className="text-lg font-bold text-gray-800">التسويق الطبي المتخصص للمستشفيات والمراكز الطبية</p>
+        <p className="text-lg font-bold text-blue-950">التسويق الطبي المتخصص للمستشفيات والمراكز الطبية</p>
         
       </div>
     </div>
