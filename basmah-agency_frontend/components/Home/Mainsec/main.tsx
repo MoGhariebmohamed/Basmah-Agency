@@ -30,7 +30,11 @@ const Mainsec = () => {
                          from-yellow-400 via-pink-500 to-green-600">
                      </div>
     </div>
-    <a href="#" title=""
+    <a 
+        href="https://wa.me/201016825550?text=مرحبًا%20أريد%20الاستفسار%20عن%20خدماتكم" 
+        title="تواصل معنا علي واتس أب"
+        target="blnk"
+        rel="noopener noreferrer"
         className="relative z-10 inline-flex items-center justify-center 
         w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
         bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
