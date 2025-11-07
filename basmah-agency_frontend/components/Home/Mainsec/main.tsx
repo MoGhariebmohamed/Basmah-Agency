@@ -17,7 +17,7 @@ const Mainsec = () => {
                         بصمة للتسويق الرقمي
                         <span className="text-[#006f82] block"> نترك أثرًا… يتجاوز التوقعات </span>
                     </h1>
-                    <p className="text-xs sm:text-sm md:text-base font-bold text-blue-800">
+                    <p className="text-xl lg:text-2xl sm:text-sm md:text-base font-bold text-blue-950">
                         نؤمن أن لكل مشروع بصمته الخاصة، ولكل فكرة طابعها الفريد. ومن هنا، نصيغ لك حلولًا تسويقية وهوية بصرية تُجسّد روح مشروعك، وتُترجم رسالته إلى تجربة حيّة تبقى في الذاكرة.
 
                     </p>
@@ -37,8 +37,8 @@ const Mainsec = () => {
         rel="noopener noreferrer"
         className="relative z-10 inline-flex items-center justify-center 
         w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
-        bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
-        hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        bg-[#0097b2] border-2 border-transparent sm:w-auto rounded-xl font-pj 
+        hover:bg-blue-950 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
         role="button">
         تواصل معنا
     </a>

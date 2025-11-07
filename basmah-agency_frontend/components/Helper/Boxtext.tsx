@@ -6,7 +6,7 @@ type Props = {
 
 const Boxtext = ({ children } : Props) => {
     return (
-        <h1 className="border-2 px-4 w-fit round-lg bg-blue-200 text-[#ea580c] font-bold">
+        <h1 className="border-4 px-10 w-fit round-lg bg-[#0097b2] text-blue-950 text-xl font-bold">
             {children}
         </h1>
     );

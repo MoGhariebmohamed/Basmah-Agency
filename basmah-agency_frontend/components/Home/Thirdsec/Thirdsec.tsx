@@ -5,9 +5,9 @@ import { GoWorkflow } from "react-icons/go";
 import { LuPenLine } from "react-icons/lu";
 
 const Thirdsec = () => {
-  return <div dir="rtl" className="text-right pt-20 pb-16 bg-blue-100"> 
+  return <div dir="rtl" className="text-right pt-20 pb-16 bg-opacity-50"> 
   <div>
-    <h1 className="text-center text-2xl text-blue-950 font-bold">
+    <h1 className="text-center text-4xl text-blue-950 font-bold">
         أهم ما يميز باقاتنا
     </h1>
   </div>
@@ -19,17 +19,17 @@ const Thirdsec = () => {
         <div className="bg-white p-4 rounded-lg">
             <div className="flex items-center space-x-3">
                 {/* icon for box */}
-                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
-                flex-col bg-pink-500 bg-opacity-20">
+                <div className="w-15 h-15 rounded-3xl flex items-center justify-center 
+                flex-col bg-[#0097b2] bg-opacity-20">
                     <MdOutlineTouchApp className="w-6 h-6 text-orange-450" />
                 </div>
                 {/* Heading */}
-                <h1 className="text-lg font-bold text-gray-700">
+                <h1 className="text-xl font-bold text-gray-700">
                  باقات مصممة بمرونة     
                 </h1>
             </div>
             {/* description */}
-            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+            <p className="mt-3 text-lg mb-3 text-gray-700 leading-relaxed">
                 تراعي حجم مشروعك ومرحلته، وتنمو وتتطور معك في كل خطوة
             </p>
         </div>
@@ -37,17 +37,17 @@ const Thirdsec = () => {
         <div className="bg-white p-4 rounded-lg">
             <div className="flex items-center space-x-3">
                 {/* icon for box */}
-                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
-                flex-col bg-pink-500 bg-opacity-20">
-                    <GoWorkflow className="w-6 h-6 text-orange-450" />
+                <div className="w-15 h-15 rounded-3xl flex items-center justify-center 
+                flex-col bg-[#0097b2] bg-opacity-20">
+                    <GoWorkflow className="w-6 h-6 text-blue-950" />
                 </div>
                 {/* Heading */}
-                <h1 className="text-lg font-bold text-gray-700">
+                <h1 className="text-xl font-bold text-gray-700">
                     تحليل دقيق
                 </h1>
             </div>
             {/* description */}
-            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+            <p className="mt-3 mb-3 text-lg text-gray-700 leading-relaxed">
                 قراراتنا مبنية على بيانات دقيقة و دراسة، لا على تخمينات
             </p>
         </div>
@@ -55,17 +55,17 @@ const Thirdsec = () => {
         <div className="bg-white p-4 rounded-lg">
             <div className="flex items-center space-x-3">
                 {/* icon for box */}
-                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
-                flex-col bg-pink-500 bg-opacity-20">
+                <div className="w-15 h-15 rounded-3xl flex items-center justify-center 
+                flex-col bg-[#0097b2] bg-opacity-20">
                     <LuPenLine className="w-6 h-6 text-orange-450" />
                 </div>
                 {/* Heading */}
-                <h1 className="text-lg font-bold text-gray-700">
+                <h1 className="text-xl font-bold text-gray-700">
                     إبداعية
                 </h1>
             </div>
             {/* description */}
-            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+            <p className="mt-3 mb-3 text-lg text-gray-700 leading-relaxed">
                 محتوى وتصميم يترك بصمة مميزة في ذهن جمهورك
             </p>
         </div>
@@ -73,17 +73,17 @@ const Thirdsec = () => {
         <div className="bg-white p-4 rounded-lg">
             <div className="flex items-center space-x-3">
                 {/* icon for box */}
-                <div className="w-12 h-12 rounded-3xl flex items-center justify-center 
-                flex-col bg-pink-500 bg-opacity-20">
+                <div className="w-15 h-15 rounded-3xl flex items-center justify-center 
+                flex-col bg-[#0097b2] bg-opacity-20">
                     <MdOutlineAccessAlarm className="w-6 h-6 text-orange-450" />
                 </div>
                 {/* Heading */}
-                <h1 className="text-lg font-bold text-gray-700">
+                <h1 className="text-xl font-bold text-gray-700">
                     متكاملة
                 </h1>
             </div>
             {/* description */}
-            <p className="mt-3 mb-3 text-gray-700 leading-relaxed">
+            <p className="mt-3 mb-3 text-lg text-gray-700 leading-relaxed">
                 كل ما تحتاجه لبناء حضور رقمي قوي؛ من الهوية البصرية حتى الحملات الإعلانية
             </p>
         </div>

@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { IoFingerPrintOutline } from 'react-icons/io5';
+import Image from "next/image"
 import Link  from "next/link";
 import { navLinks } from "../../../constant/constant";
 import { HiBars3BottomRight } from "react-icons/hi2";
@@ -80,8 +80,13 @@ const Nav = ({ openNav }: NavProp) => {
       {/* LOGO */}
       <div className="flex items-center space-x-2 ">
         <h1 className="text-x1 hidden sm:block md:text-2xl text-blue-950">بصمة</h1>
-        <div className="w-10 h-10 bg-red-700 rounded-full flex items-center justify-center flex-col">
-          <IoFingerPrintOutline className="w-6 h-6 text-white" />
+        <div className="w-20 h-16 bg-red-700 rounded-full flex items-center justify-center flex-col">
+          <Image 
+            src="/images/logo2.png" 
+            alt="image"
+            width={400} 
+            height={400}
+          />
         </div>
       </div>    
      

@@ -7,16 +7,16 @@ import { IoColorPalette, IoColorPaletteOutline } from "react-icons/io5";
 
 const Fourthsec = () => {
   return (
-  <div dir="rtl" className="text-right pt-20 pb-16 bg-blue-200"> 
+  <div dir="rtl" className="text-right pt-20 pb-16 bg-opacity-50"> 
   <div className="w-[80%] mt-3 mx-auto">
   <Boxtext>خدماتنا</Boxtext>
   {/* Heading */}
-  <h1 className="mt-4 text-2xl md:text-3xl font-bold text-blue-950">
+  <h1 className="mt-4 text-4xl md:text-3xl font-bold text-blue-950">
     أثر يدوم… ونجاح يتجدد
   </h1>
   {/* Description */}
-  <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:e-[60%] xl:w-[50%] text-blue-950">
-    لا نقدّم مجرد خدمات تسويق… بل نصنع أثرًا يبقى، ونفتح آفاقًا جديدة لنجاح يتجدد مع كل خطوة في رحلتكم      
+  <p className="mt-4 w-full sm:w-[80%] md:w-[90%] lg:e-[80%] xl:w-[80%] text-xl text-blue-950">
+    لا نقدّم مجرد خدمات تسويق … بل نصنع أثرًا يبقى، ونفتح آفاقًا جديدة لنجاح يتجدد مع كل خطوة في رحلتكم      
   </p>
   {/* Grid */}
   <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center 
@@ -31,7 +31,7 @@ const Fourthsec = () => {
       {/* Text Content */}
       <div>
         <p className="text-lg font-bold text-blue-950">إدارة الحملات الإعلانية على جميع المنصات الرقمية</p>
-        <p className="text-sm text-blue-900">فيسبوك، إنستجرام، لينكدإن، جوجل</p>
+        <p className="text-sm text-blue-900"></p>
       </div>
     </div>
      {/* 2nd Box */}
@@ -70,7 +70,7 @@ const Fourthsec = () => {
       {/* Text Content */}
       <div>
         <p className="text-lg font-bold text-blue-950">كتابة المحتوى الرقمي</p>
-        <p className="text-sm text-blue-900">تجاري، طبي، تعليمي، ترفيهي</p>
+        <p className="text-sm text-blue-900"></p>
       </div>
     </div>
      {/* 5th Box */}
