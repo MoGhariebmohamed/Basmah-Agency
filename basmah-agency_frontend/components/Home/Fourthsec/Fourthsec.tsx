@@ -8,7 +8,7 @@ import { IoColorPalette, IoColorPaletteOutline } from "react-icons/io5";
 const Fourthsec = () => {
   return (
   <div dir="rtl" className="text-right pt-20 pb-16 bg-blue-200"> 
-  <div className="w-[80%] mx-auto">
+  <div className="w-[80%] mt-3 mx-auto">
   <Boxtext>خدماتنا</Boxtext>
   {/* Heading */}
   <h1 className="mt-4 text-2xl md:text-3xl font-bold text-blue-950">

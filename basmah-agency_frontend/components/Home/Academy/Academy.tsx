@@ -27,18 +27,18 @@ const Academy = () => {
         
         {/* Button */}
         <div>
-            <a 
-        href="https://wa.me/201016825550?text=مرحبًا%20أريد%20الاستفسار%20عن%20أكاديمية بصمة" 
-        title="تواصل معنا علي واتس أب"
-        target="blnk"
-        rel="noopener noreferrer"
-        className="relative z-10 inline-flex items-center justify-center 
-        w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
-        bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
-        hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-        role="button">
-        هيا بنا 
-    </a>
+            <a
+                href={`https://wa.me/201016825550?text=${encodeURIComponent(" أريد الإستفسار عن أكاديمية بصمة")}`} 
+                title="تواصل معنا علي واتس أب"
+                target="blnk"
+                rel="noopener noreferrer"
+                className="relative mt-6 z-10 inline-flex items-center justify-center 
+                w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
+                bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
+                hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+                role="button">
+                        تحدث معنا 
+            </a>
         </div>
         </div>
 

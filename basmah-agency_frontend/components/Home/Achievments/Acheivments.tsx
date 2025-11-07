@@ -4,7 +4,7 @@ import Achievmentslog from "./Achievmentslog";
 
 const Achievments = () => {
   return <div dir="rtl" className="text-right bg-blue-300 pt-20 pb-16">
-    <h1 className="text-center text-2xl text-blue-900 font-bold">
+    <h1 className="text-center mt-3 text-2xl text-blue-900 font-bold">
         إنجازاتنا تتحدث عنا</h1>
     {/* sub heading */}
     <p className="mt-3 text-center font-meduim text-gray-700 

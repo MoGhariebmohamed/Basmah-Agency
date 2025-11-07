@@ -43,7 +43,7 @@ const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
     <div dir="rtl" className="max-w-lg mx-auto px-4 sm:px-6 py-16">
-      <h1 className="text-3xl font-bold mb-6 text-center">تواصل معنا </h1>
+      <h1 className="text-3xl font-bold mb-6 text-center mt-3">تواصل معنا </h1>
       <form onSubmit={handleSubmit} className="space-y-4">
         <input
           type="text"
