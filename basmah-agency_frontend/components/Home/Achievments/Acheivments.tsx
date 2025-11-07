@@ -21,25 +21,25 @@ const Achievments = () => {
     <div className="grid grid-cols-1 grid-cols-2 gap-4 items-center 
     mt-16 w-[80%] mx-auto">
         <div className="">
-            <Achievmentslog image="/images/lake.jpg"
+            <Achievmentslog image="/images/1.png"
              name="lakes" 
              rating="5"
              />
         </div>
         <div className="">
-            <Achievmentslog image="/images/joedoe.jpg"
+            <Achievmentslog image="/images/2.png"
              name="joedoe" 
              rating="4.5"
              />
         </div>
         <div className="">
-            <Achievmentslog image="/images/robo.jpg"
+            <Achievmentslog image="/images/3.png"
              name="robo" 
              rating="4.5"
              />
         </div>
         <div className="">
-            <Achievmentslog image="/images/one.png"
+            <Achievmentslog image="/images/4.png"
              name="one" 
              rating="4.5"
              />

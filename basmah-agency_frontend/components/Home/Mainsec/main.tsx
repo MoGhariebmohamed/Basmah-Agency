@@ -4,8 +4,8 @@ import Image from "next/image"
 const Mainsec = () => {
     return (
         <div dir="rtl" className="relative w-full h-[110vh] sm:h-screen 
-        bg-[url('/images/cellhexa.jpg')] bg-cover flex
-         justify-center flex-col bg-center text-right">1080*920
+        bg-[url('/images/1080_920.png')] bg-cover flex
+         justify-center flex-col bg-center text-right">
             <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 
             xl:grid-cols-2 gap-10">
                 {/* text content */}
@@ -35,7 +35,7 @@ const Mainsec = () => {
         title="تواصل معنا علي واتس أب"
         target="blnk"
         rel="noopener noreferrer"
-        className="relative z-20 inline-flex items-center justify-center 
+        className="relative z-10 inline-flex items-center justify-center 
         w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 
         bg-green-800 border-2 border-transparent sm:w-auto rounded-xl font-pj 
         hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
@@ -48,11 +48,11 @@ const Mainsec = () => {
                 {/*image content */}
                 <div className="mx-auto hidden xl:block">
                     <Image 
-                    src="/images/handonlap.jpg" 
+                    src="/images/900.png" 
                     alt="image"
                     width={900} 
                     height={900}
-                    />900*900
+                    />
                 </div>
             </div>
          </div>

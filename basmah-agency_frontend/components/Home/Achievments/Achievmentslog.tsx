@@ -18,7 +18,7 @@ const Achievmentslog = ({ image, name, rating }: Property) => {
     alt={name}
     width={250}
     height={250}
-    className="rounded-lg" />250*250
+    className="rounded-lg" />
 </div>
 <div>
     <h1 className="text-lg font-bold text-blue-900">{name}</h1>

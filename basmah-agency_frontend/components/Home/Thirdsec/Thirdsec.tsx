@@ -10,13 +10,9 @@ const Thirdsec = () => {
     <h1 className="text-center text-2xl text-blue-950 font-bold">
         أهم ما يميز باقاتنا
     </h1>
-    <p className="mt-3 text-center font-medium text-red-700 w-[90%] 
-    mx-auto sm:w-[70%] md:w-[50%]">
-        ن حن المتميزون والمتيزون نحنحن المتميزون والمتيزون نحن نحن المتميزون والمتيزون نحن 
-        نحن المتميزون والمتيزون نحن </p>
   </div>
   {/* The Mian Grid */}
-  <div className="w-[80%] mx-auto  mt-16 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
+  <div className="w-[80%] mx-auto  mt-10 grid grid-cols-1 xl:grid-cols-2 gap-10 items-center">
     {/* Inner grid */}
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
         {/* First box */}
@@ -94,7 +90,7 @@ const Thirdsec = () => {
     </div>
     {/* Image section */}
     <div>
-        <Image src="/images/gearsoftware.jpg" alt="خدماتنا" width={700} height={700} />700*700
+        <Image src="/images/700.png" alt="خدماتنا" width={700} height={700} />
     </div>
   </div>
    </div>

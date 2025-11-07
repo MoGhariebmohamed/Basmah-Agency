@@ -48,31 +48,31 @@ const Academy = () => {
         lg:col-span-3">
             <div className="relative overflow-hidden">
             <Image 
-            src="/images/laptop and tab.jpg"
+            src="/images/medical1.png"
             alt="اكاديمتنا"
             width={300}
             height={300}
             className="rounded-lg"
             />
-            <div className="absolute w-full h-[5rem] bottom-0 p-4 
+            <div className="absolute w-full h-[2rem] bottom-0 p-4 
             bg-rose-400 rounded-lg">
-                <p className="text-lg text-white font-bold">300*300</p>
-                <p className="text-gray-200">(مؤسس)</p>
+                <p className="text-lg text-white font-bold"></p>
+                <p className="text-gray-200"></p>
             </div>
             </div>
             
             <div className="relative overflow-hidden">
             <Image 
-            src="/images/laptop and tab.jpg"
+            src="/images/medical2.png"
             alt="اكاديمتنا"
             width={300}
             height={300}
             className="rounded-lg"
             />
-            <div className="absolute w-full h-[5rem] bottom-0 p-4 
+            <div className="absolute w-full h-[2rem] bottom-0 p-4 
             bg-rose-400 rounded-lg">
-                <p className="text-lg text-white font-bold">300*300</p>
-                <p className="text-gray-200">(مؤسس)</p>
+                <p className="text-lg text-white font-bold"></p>
+                <p className="text-gray-200"></p>
             </div>
             </div>
         </div>
